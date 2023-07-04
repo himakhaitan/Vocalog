@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "573815287508",
+    "project_id": "dictionary-abfac",
+    "storage_bucket": "dictionary-abfac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573815287508:android:4f3d17984819feaca55541",
+        "android_client_info": {
+          "package_name": "com.example.vocalog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573815287508-hl9ubm38j0m936ataimbeu0rkqggchv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVHhY9kNXCK8tkn6WQPePQRdnIaJCSPc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573815287508-hl9ubm38j0m936ataimbeu0rkqggchv2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "573815287508-c8j7j7qd0t1m4nekpcm5q9mp6u32p4pb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.vocalog"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
