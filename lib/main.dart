@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:vocalog/router/app_router.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,6 +14,9 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+
+  final AppRouter _appRouter = AppRouter();
+
   @override
   Widget build(BuildContext context) {
 
@@ -25,6 +29,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: "Vocalog",
       theme: ThemeData(useMaterial3: true,),
+      onGenerateRoute: _appRouter.onGenerateRoute,
       debugShowCheckedModeBanner: false,
     );
   }
