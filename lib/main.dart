@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:vocalog/router/app_router.dart';
+
+// Firebase Imports
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
+// Main Function
 void main() async {
   // Initialize Flutter
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,7 +39,7 @@ class _MyAppState extends State<MyApp> {
     // Set MaterialApp
     return MaterialApp(
       title: "Vocalog",
-      theme: ThemeData(
+      theme: ThemeData().copyWith(
         useMaterial3: true,
       ),
       onGenerateRoute: _appRouter.onGenerateRoute,
